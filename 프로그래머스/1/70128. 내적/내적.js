@@ -1,8 +1,8 @@
 function solution(a, b) {
     let sum = 0;
     
-    for (i = 1; i <= a.length; i++) {
-        sum += a[i - 1] * b[i - 1];
+    for (i = 0; i < a.length; i++) {
+        sum += a[i] * b[i];
     }
     
     return sum;
