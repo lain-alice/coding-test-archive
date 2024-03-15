@@ -1,6 +1,5 @@
 function solution(lottos, win_nums) {
-    
-    
+        
     let sameNums = lottos.filter( a => win_nums.includes(a) )
     let erasedNums = lottos.filter( a => a === 0 )
     
