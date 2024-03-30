@@ -17,13 +17,11 @@ for i in range(M):
     if S[0] == '?' and len(S) == 1: 
         answer = A[0]
 
-    elif S[0] == '?':
-        if A[i].endswith(S[1][0]) and A[i] not in S:
-            answer = A[i]
+    elif S[0] == '?' and A[i].endswith(S[1][0]) and A[i] not in S:
+        answer = A[i]
 
-    elif S[-1] == '?':
-        if A[i].startswith(S[-2][-1]) and A[i] not in S:
-            answer = A[i]
+    elif S[-1] == '?' and A[i].startswith(S[-2][-1]) and A[i] not in S:
+        answer = A[i]
     else:
         for j in range(1, N - 1):
             if S[j] == '?':
