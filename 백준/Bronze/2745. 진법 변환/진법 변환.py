@@ -1,10 +1,9 @@
 import sys
 input = sys.stdin.readline().strip()
 
-N = input.split(' ')[0]
-B = int(input.split(' ')[1])
+N, B = input.split(' ')
+B = int(B)
 
 decimal = int(N, B)
-
 
 print(decimal)
