@@ -3,13 +3,13 @@ input = sys.stdin.readline
 
 N = int(input())
 
-if 90 <= N <= 100:
+if 90 <= N:
     print('A')
-elif 80 <= N <= 89:
+elif 80 <= N:
     print('B')
-elif 70 <= N <= 79:
+elif 70 <= N:
     print('C')
-elif 60 <= N <= 69:
+elif 60 <= N:
     print('D')
 else:
     print('F')
