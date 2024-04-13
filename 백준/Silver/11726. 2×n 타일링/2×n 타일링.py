@@ -1,5 +1,4 @@
 import sys
-
 input = sys.stdin.readline
 
 n = int(input())
@@ -19,4 +18,5 @@ print(dp[n])
 # 2x2 가가 세세 2개
 # 2x3이 1번 방법수, 2번 방법수 합이 되어야 함
 # 2x4는 2번+3번.....
+
 
